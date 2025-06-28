@@ -9,6 +9,24 @@ SiHadir adalah aplikasi absensi siswa dan manajemen jadwal kelas berbasis web, d
 
 ---
 
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi         | Kegunaan                                                                 |
+|-------------------|--------------------------------------------------------------------------|
+| Laravel           | Framework utama backend PHP, routing, MVC, ORM, autentikasi, migrasi     |
+| Laravel Breeze    | Starter kit autentikasi sederhana (login, register, session)             |
+| MySQL/MariaDB     | Database relasional untuk menyimpan data user, absensi, jadwal           |
+| Composer          | Manajer dependency PHP                                                   |
+| NPM & Node.js     | Manajer dependency frontend, build asset (JS, CSS)                       |
+| Vite              | Build tool modern untuk asset frontend (JS, CSS)                         |
+| Tailwind CSS      | Framework CSS utility-first untuk styling responsif & modern              |
+| Chart.js          | Library visualisasi grafik absensi di dashboard                          |
+| Font Poppins      | Font utama untuk tampilan modern                                         |
+| Git & GitHub      | Version control & kolaborasi kode                                        |
+| Glassmorphism CSS | Efek visual modern pada card, navbar, dan elemen UI                      |
+
+---
+
 ## 🚀 Fitur Utama
 - **Autentikasi**: Login/register dengan username, level user (admin/siswa)
 - **Manajemen User (Admin)**: Lihat, rekap, dan hapus user
