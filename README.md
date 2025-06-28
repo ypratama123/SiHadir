@@ -9,6 +9,24 @@ SiHadir adalah aplikasi absensi siswa dan manajemen jadwal kelas berbasis web, d
 
 ---
 
+## 🗺️ Diagram Alur Aplikasi
+
+```mermaid
+graph TD
+    A[Login] --> B{Level User}
+    B -- Admin --> C[Dashboard Admin]
+    B -- Siswa --> D[Dashboard Siswa]
+    C --> E[Manajemen User]
+    C --> F[Manajemen Jadwal]
+    C --> G[Rekap Absensi]
+    C --> H[Print Laporan]
+    D --> I[Lihat Jadwal]
+    D --> J[Absensi]
+    D --> K[Riwayat Absensi]
+```
+
+---
+
 ## 🛠️ Teknologi yang Digunakan
 
 | Teknologi         | Kegunaan                                                                 |
